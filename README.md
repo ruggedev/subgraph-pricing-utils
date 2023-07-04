@@ -5,7 +5,7 @@ Simple `npm` pkg to get token price from different price source on TheGraph.
 <!-- prettier-ignore-start -->
 | version | Name | 
 | --- | --- | 
-|[![npm (scoped)](https://img.shields.io/npm/v/@ruggedhaha/subgraph-pricing-utils.svg?color=success)](https://www.npmjs.com/package/@ruggedhaha/subgraph-pricing-utils)| `@ruggedehaha/subgraph-pricing-utils` |
+|[![npm (scoped)](https://img.shields.io/npm/v/@ruggedhaha/subgraph-pricing-utils.svg?color=success)](https://www.npmjs.com/package/@ruggedhaha/subgraph-pricing-utils)| `@ruggedhaha/subgraph-pricing-utils` |
 
 <!-- prettier-ignore-end -->
 
