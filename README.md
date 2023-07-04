@@ -2,6 +2,9 @@
 
 Simple `npm` pkg to get token price from different price source on TheGraph.
 
+demo: https://github.com/ruggedev/subgraph-pricing-demo
+
+
 ### 1. Install
 
 ```
