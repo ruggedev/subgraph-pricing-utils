@@ -1,0 +1,22 @@
+{
+  "name": "@ruggedhaha/subgraph-pricing-utils",
+  "version": "1.0.8",
+  "description": "Pricing Utils for Subgraph",
+  "author": "ruggedev <ruggedev@gmail.com>",
+  "license": "MIT",
+  "main": "index.ts",
+  "files": [
+    "generated/*",
+    "common",
+    "pricing",
+    "index.ts"
+  ],
+  "dependencies": {
+    "@graphprotocol/graph-ts": "^0.31.0",
+    "@graphprotocol/graph-cli": "^0.51.2"
+  },
+  "scripts": {
+    "clean": "rimraf generated",
+    "codegen": "graph codegen ./dummy/subgraph.yaml"
+  }
+}

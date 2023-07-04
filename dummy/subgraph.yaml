@@ -1,0 +1,38 @@
+specVersion: 0.0.4
+schema:
+  file: ./dummy.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: abis
+    network: mainnet
+    source:
+      address: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984'
+      abi: ERC20
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      file: ../index.ts
+      entities:
+        - dummy
+      abis:
+        - name: ChainlinkOracle
+          file: ../abis/ChainlinkOracle.json
+        - name: ERC20
+          file: ../abis/ERC20.json
+        - name: JoeDexLens
+          file: ../abis/JoeDexLens.json
+        - name: Quoter
+          file: ../abis/Quoter.json
+        - name: UniswapV2Factory
+          file: ../abis/UniswapV2Factory.json
+        - name: UniswapV2Pair
+          file: ../abis/UniswapV2Pair.json
+        - name: UniswapV2Router
+          file: ../abis/UniswapV2Router.json
+        - name: UniswapV3Factory
+          file: ../abis/UniswapV3Factory.json
+        - name: UniswapV3Pool
+          file: ../abis/UniswapV3Pool.json
+      blockHandlers:
+        - handler: dummyHandler
